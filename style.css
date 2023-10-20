@@ -1,0 +1,84 @@
+*{
+    margin: 0px;
+}
+
+section{
+    background-color: #FFD900;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 50px;
+}
+
+#containerDoMeio{
+    display: grid;
+    grid-auto-flow: column;
+    
+}
+
+#revivaoEpico{
+    background-color: #514988;
+    width: 600px;
+    padding: 30px 30px 50px 20px;
+    text-align: center;
+}
+
+#tituloEpico{
+    color: #F3C61F;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+}
+
+#subtituloEpico{
+    color: #FFF;
+    font-family: Verdana;
+    font-size: 20px;
+}
+
+p{
+    color: #FFF;
+    font-family: Verdana;
+    width: 600px;   
+}
+
+#video{
+    padding: 15px 1px 1px 1px;
+    margin-bottom: 1px;
+}
+
+#tituloDias{
+    color: #F3C61F;
+    text-align:justify;
+    font-family: Verdana;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 70px;
+}
+
+button{
+    background-color: #514988;
+    color: #FFF;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 350px;
+    height: 90px;
+    border-radius: 10px;
+    border: 0;
+    margin-left: 100px;
+    position: absolute;
+    margin-top: 50px;
+}
+
+#rodape{
+    margin-left: 50px;
+    width: 1300px;
+    margin-bottom: 30px;
+}
+
+button:hover{
+    color: #F3C61F;
+    cursor: pointer;
+    transform: translateY(-5px);
+    transition-duration: 0.5s;
+    box-shadow: 7px 7px 10px 2px #e3c148ab;
+}
