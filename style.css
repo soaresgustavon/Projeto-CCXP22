@@ -82,3 +82,7 @@ button:hover{
     transition-duration: 0.5s;
     box-shadow: 7px 7px 10px 2px #e3c148ab;
 }
+
+.card-highlight{
+    box-shadow: 5px 20px blue;
+}
