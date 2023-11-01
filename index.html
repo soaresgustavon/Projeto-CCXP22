@@ -37,12 +37,12 @@
 
     <div id="rodape">
         <h1 id="tituloDias"> AINDA DÁ TEMPO DE GARANTIR O SEU, MAS CORRE! </h1>
-        <img src="qui.svg" onmouseover="highlightCard('#quinta')" onmouseout="highlightCard('#quinta')" class="card-highlight" id="quinta">
-        <img src="sex.svg" onmouseover="highlightCard('#sexta')" onmouseout="highlightCard('#sexta')" class="card-highlight" id="sexta">
-        <img src="sab.svg" onmouseover="highlightCard('#sabado')" onmouseout="highlightCard('#sabado')" class="card-highlight" id="sabado">
-        <img src="dom.svg" onmouseover="highlightCard('#domingo')" onmouseout="highlightCard('#domingo')" class="card-highlight" id="domingo">
+        <img src="qui.svg" class="cards-ingressos" onclick="selectCard('#quinta')" onmouseover="highlightCard('#quinta')" onmouseout="highlightCard('#quinta')" class="card-highlight" id="quinta">
+        <img src="sex.svg" class="cards-ingressos" onclick="selectCard('#sexta')" onmouseover="highlightCard('#sexta')" onmouseout="highlightCard('#sexta')" class="card-highlight" id="sexta">
+        <img src="sab.svg" class="cards-ingressos" onclick="selectCard('#sabado')" onmouseover="highlightCard('#sabado')" onmouseout="highlightCard('#sabado')" class="card-highlight" id="sabado">
+        <img src="dom.svg" class="cards-ingressos" onclick="selectCard('#domingo')" onmouseover="highlightCard('#domingo')" onmouseout="highlightCard('#domingo')" class="card-highlight" id="domingo">
 
-        <button>
+        <button onclick="showSelectedCards()">
             GARANTA O SEU!
         </button>
 
